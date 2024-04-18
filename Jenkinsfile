@@ -5,7 +5,8 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout your source code from your version control system (e.g., Git)
-                git 'https://github.com/your/repository.git'
+                git 'https://github.com/AnkitaSaroj2001/mutlibranch.git'
+                
             }
         }
         
